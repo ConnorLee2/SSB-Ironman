@@ -1,0 +1,422 @@
+[
+    {
+        "id": 0,
+        "name": "Mario",
+        "series": "Mario"
+    },
+    {
+        "id": 1,
+        "name": "Donkey Kong",
+        "series": "DK"
+    },
+    {
+        "id": 2,
+        "name": "Link",
+        "series": "Zelda"
+    },
+    {
+        "id": 3,
+        "name": "Samus",
+        "series": "Metroid"
+    },
+    {
+        "id": 4,
+        "name": "Dark Samus",
+        "series": "Metroid"
+    },
+    {
+        "id": 5,
+        "name": "Yoshi",
+        "series": "Yoshi"
+    },
+    {
+        "id": 6,
+        "name": "Kirby",
+        "series": "Kirby"
+    },
+    {
+        "id": 7,
+        "name": "Fox",
+        "series": "Star Fox"
+    },
+    {
+        "id": 8,
+        "name": "Pikachu",
+        "series": "Pokemon"
+    },
+    {
+        "id": 9,
+        "name": "Luigi",
+        "series": "Mario"
+    },
+    {
+        "id": 10,
+        "name": "Ness",
+        "series": "Earthbound"
+    },
+    {
+        "id": 11,
+        "name": "Captain Falcon",
+        "series": "F-Zero"
+    },
+    {
+        "id": 12,
+        "name": "Jigglypuff",
+        "series": "Pokemon"
+    },
+    {
+        "id": 13,
+        "name": "Peach",
+        "series": "Mario"
+    },
+    {
+        "id": 14,
+        "name": "Daisy",
+        "series": "Mario"
+    },
+    {
+        "id": 15,
+        "name": "Bowser",
+        "series": "Mario"
+    },
+    {
+        "id": 16,
+        "name": "Ice Climbers",
+        "series": "Ice Climber"
+    },
+    {
+        "id": 17,
+        "name": "Sheik",
+        "series": "Zelda"
+    },
+    {
+        "id": 18,
+        "name": "Zelda",
+        "series": "Zelda"
+    },
+    {
+        "id": 19,
+        "name": "Dr. Mario",
+        "series": "Mario"
+    },
+    {
+        "id": 20,
+        "name": "Pichu",
+        "series": "Pokemon"
+    },
+    {
+        "id": 21,
+        "name": "Falco",
+        "series": "Star Fox"
+    },
+    {
+        "id": 22,
+        "name": "Marth",
+        "series": "Fire Emblem"
+    },
+    {
+        "id": 23,
+        "name": "Lucina",
+        "series": "Fire Emblem"
+    },
+    {
+        "id": 24,
+        "name": "Young Link",
+        "series": "Zelda"
+    },
+    {
+        "id": 25,
+        "name": "Ganondorf",
+        "series": "Zelda"
+    },
+    {
+        "id": 26,
+        "name": "Mewtwo",
+        "series": "Pokemon"
+    },
+    {
+        "id": 27,
+        "name": "Roy",
+        "series": "Fire Emblem"
+    },
+    {
+        "id": 28,
+        "name": "Chrom",
+        "series": "Fire Emblem"
+    },
+    {
+        "id": 29,
+        "name": "Mr. Game & Watch",
+        "series": "Game & Watch"
+    },
+    {
+        "id": 30,
+        "name": "Meta Knight",
+        "series": "Kirby"
+    },
+    {
+        "id": 31,
+        "name": "Pit",
+        "series": "Kid Icarus"
+    },
+    {
+        "id": 32,
+        "name": "Dark Pit",
+        "series": "Kid Icarus"
+    },
+    {
+        "id": 33,
+        "name": "Zero Suit Samus",
+        "series": "Metroid"
+    },
+    {
+        "id": 34,
+        "name": "Wario",
+        "series": "Wario"
+    },
+    {
+        "id": 35,
+        "name": "Snake",
+        "series": "Metal Gear"
+    },
+    {
+        "id": 36,
+        "name": "Ike",
+        "series": "Fire Emblem"
+    },
+    {
+        "id": 37,
+        "name": "Pokemon Trainer",
+        "series": "Pokemon"
+    },
+    {
+        "id": 38,
+        "name": "Diddy Kong",
+        "series": "DK"
+    },
+    {
+        "id": 39,
+        "name": "Lucas",
+        "series": "Earthbound"
+    },
+    {
+        "id": 40,
+        "name": "Sonic",
+        "series": "Sonic"
+    },
+    {
+        "id": 41,
+        "name": "King Dedede",
+        "series": "Kirby"
+    },
+    {
+        "id": 42,
+        "name": "Olimar",
+        "series": "Pikmin"
+    },
+    {
+        "id": 43,
+        "name": "Lucario",
+        "series": "Pokemon"
+    },
+    {
+        "id": 44,
+        "name": "R.O.B.",
+        "series": "ROB"
+    },
+    {
+        "id": 45,
+        "name": "Toon Link",
+        "series": "Zelda"
+    },
+    {
+        "id": 46,
+        "name": "Wolf",
+        "series": "Star Fox"
+    },
+    {
+        "id": 47,
+        "name": "Villager",
+        "series": "Animal Crossing"
+    },
+    {
+        "id": 48,
+        "name": "Mega Man",
+        "series": "Mega Man"
+    },
+    {
+        "id": 49,
+        "name": "Wii Fit Trainer",
+        "series": "Wii Fit"
+    },
+    {
+        "id": 50,
+        "name": "Rosalina & Luma",
+        "series": "Mario"
+    },
+    {
+        "id": 51,
+        "name": "Little Mac",
+        "series": "Punch Out"
+    },
+    {
+        "id": 52,
+        "name": "Greninja",
+        "series": "Pokemon"
+    },
+    {
+        "id": 53,
+        "name": "Mii Brawler",
+        "series": "Smash Bros"
+    },
+    {
+        "id": 54,
+        "name": "Mii Swordfighter",
+        "series": "Smash Bros"
+    },
+    {
+        "id": 55,
+        "name": "Mii Gunner",
+        "series": "Smash Bros"
+    },
+    {
+        "id": 56,
+        "name": "Palutena",
+        "series": "Kid Icarus"
+    },
+    {
+        "id": 57,
+        "name": "Pac-Man",
+        "series": "Pac Man"
+    },
+    {
+        "id": 58,
+        "name": "Robin",
+        "series": "Fire Emblem"
+    },
+    {
+        "id": 59,
+        "name": "Shulk",
+        "series": "Xenoblade"
+    },
+    {
+        "id": 60,
+        "name": "Bowser Jr.",
+        "series": "Mario"
+    },
+    {
+        "id": 61,
+        "name": "Duck Hunt",
+        "series": "Duck Hunt"
+    },
+    {
+        "id": 62,
+        "name": "Ryu",
+        "series": "Street Fighter"
+    },
+    {
+        "id": 63,
+        "name": "Ken",
+        "series": "Street Fighter"
+    },
+    {
+        "id": 64,
+        "name": "Cloud",
+        "series": "Final Fantasy"
+    },
+    {
+        "id": 65,
+        "name": "Corrin",
+        "series": "Fire Emblem"
+    },
+    {
+        "id": 66,
+        "name": "Bayonetta",
+        "series": "Bayonetta"
+    },
+    {
+        "id": 67,
+        "name": "Inkling",
+        "series": "Splatoon"
+    },
+    {
+        "id": 68,
+        "name": "Ridley",
+        "series": "Metroid"
+    },
+    {
+        "id": 69,
+        "name": "Simon",
+        "series": "Castlevania"
+    },
+    {
+        "id": 70,
+        "name": "Richter",
+        "series": "Castlevania"
+    },
+    {
+        "id": 71,
+        "name": "King K. Rool",
+        "series": "DK"
+    },
+    {
+        "id": 72,
+        "name": "Isabelle",
+        "series": "Animal Crossing"
+    },
+    {
+        "id": 73,
+        "name": "Incineroar",
+        "series": "Pokemon"
+    },
+    {
+        "id": 74,
+        "name": "Piranha Plant",
+        "series": "Mario"
+    },
+    {
+        "id": 75,
+        "name": "Joker",
+        "series": "Persona"
+    },
+    {
+        "id": 76,
+        "name": "Hero",
+        "series": "Dragon Quest"
+    },
+    {
+        "id": 77,
+        "name": "Banjo & Kazooie",
+        "series": "Banjo Kazooie"
+    },
+    {
+        "id": 78,
+        "name": "Terry",
+        "series": "Fatal Fury"
+    },
+    {
+        "id": 79,
+        "name": "Byleth",
+        "series": "Fire Emblem"
+    },
+    {
+        "id": 80,
+        "name": "Min Min",
+        "series": "ARMS"
+    },
+    {
+        "id": 81,
+        "name": "Steve",
+        "series": "Minecraft"
+    },
+    {
+        "id": 82,
+        "name": "Sephiroth",
+        "series": "Final Fantasy"
+    },
+    {
+        "id": 83,
+        "name": "Pyra",
+        "series": "Xenoblade"
+    }
+]

@@ -1,0 +1,47 @@
+name: ssbu_ironman
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: any
+  # UI
+  auto_size_text: ^2.1.0
+  # SVG
+  flutter_svg: ^0.19.3
+  flutter_svg_provider: ^0.1.8
+  # Settings
+  flutter_settings_screens: any
+  shared_preferences: any
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: any
+  flutter_native_splash: any
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logos/SmashBrosSymbol.png"
+  adaptive_icon_background: "#FFFFFF"
+
+flutter_native_splash:
+  color: "#000000"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/characters/
+    - assets/logos/
+    - assets/background/
+    - assets/rosters/
