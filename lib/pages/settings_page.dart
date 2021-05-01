@@ -33,7 +33,7 @@ class _SettingsPageState extends State<SettingsPage> {
               SliderSettingsTile(
                 title: 'Stock Count',
                 settingKey: 'key-stock-count',
-                defaultValue: 4,
+                defaultValue: 3,
                 min: 1,
                 max: 8,
                 step: 1,

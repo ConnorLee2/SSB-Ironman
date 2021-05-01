@@ -59,9 +59,11 @@ class _CharacterPageState extends State<CharacterPage> {
 
               // Add fighters up to roster count
               do {
-                // Random number between 0 - 83
+                // Random number between 0 - xx
                 var random = Random();
-                var randomNumber = (random.nextInt(84));
+                print('Count: ${characterList.roster.fighters.length}');
+                var randomNumber =
+                    (random.nextInt(characterList.roster.fighters.length));
                 Fighter fighter = characterList.roster.fighters[randomNumber];
 
                 // Check if the list has the item

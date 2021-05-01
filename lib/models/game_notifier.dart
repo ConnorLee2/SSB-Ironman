@@ -52,10 +52,10 @@ class GameNotifier extends ChangeNotifier {
   void updateStockCount(
       bool isPlayerOne, BattleCharacter character, int stockCount) {
     character.stockCount = character.stockCount + stockCount;
-    int settingsStockCount = Settings.getValue('key-stock-count', 4.0).round();
+    int settingsStockCount = Settings.getValue('key-stock-count', 3.0).round();
 
     if (character.stockCount > settingsStockCount) {
-      character.stockCount = 4;
+      character.stockCount = 3;
     } else if (character.stockCount <= 0) {
       character.stockCount = 0;
 
