@@ -214,11 +214,6 @@ class _GamePageState extends State<GamePage> {
   }
 
   Widget _buildRosterLists(BuildContext context) {
-    // TODO: character count x characters alive / number characters
-    var battle = Provider.of<GameNotifier>(context);
-    var playerOneListLength = battle.playerOneList.length;
-    var playerTwoListLength = battle.playerTwoList.length;
-
     return Row(
       children: [
         Expanded(
