@@ -49,6 +49,17 @@ class _CharacterPageState extends State<CharacterPage> {
         actions: [
           TextButton(
             child: Text(
+              'CLEAR',
+              style: TextStyle(color: Colors.white),
+            ),
+            onPressed: () {
+              var characterList = context.read<HomeNotifier>();
+              // Clear list
+              characterList.clear();
+            },
+          ),
+          TextButton(
+            child: Text(
               'SHUFFLE',
               style: TextStyle(color: Colors.white),
             ),
@@ -201,13 +212,12 @@ class _AddButton extends StatelessWidget {
     );
 
     return TextButton(
-      onLongPress: () {
-        // reverse
-        var characterList = context.read<HomeNotifier>();
-        characterList.remove(item);
-      },
       onPressed: isInCharacterList
-          ? null
+          ? () {
+              // Remove character from list
+              var characterList = context.read<HomeNotifier>();
+              characterList.remove(item);
+            }
           : () {
               var characterList = context.read<HomeNotifier>();
               int characterCount =

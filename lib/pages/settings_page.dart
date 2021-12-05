@@ -210,6 +210,34 @@ class _SettingsPageState extends State<SettingsPage> {
                   enableDisableFighter(fighter, value);
                 },
               ),
+              CheckboxSettingsTile(
+                defaultValue: true,
+                settingKey: 'key-roster-fp2-kazuya',
+                leading: Image.asset(
+                  'assets/characters/kazuya.png',
+                  height: 32,
+                  width: 32,
+                ),
+                title: 'Kazuya',
+                onChange: (value) {
+                  var fighter = Fighter(84, 'Kazuya', 'Tekken');
+                  enableDisableFighter(fighter, value);
+                },
+              ),
+              CheckboxSettingsTile(
+                defaultValue: true,
+                settingKey: 'key-roster-fp2-sora',
+                leading: Image.asset(
+                  'assets/characters/sora.png',
+                  height: 32,
+                  width: 32,
+                ),
+                title: 'Sora',
+                onChange: (value) {
+                  var fighter = Fighter(85, 'Sora', 'Kingdom Hearts');
+                  enableDisableFighter(fighter, value);
+                },
+              ),
             ],
           ),
         ],

@@ -76,6 +76,16 @@ class RosterModel {
     if (!dlcPyra) {
       fighters.removeWhere((element) => element.id == 83);
     }
+
+    var dlcKazuya = Settings.getValue('key-roster-fp2-kazuya', true);
+    if (!dlcKazuya) {
+      fighters.removeWhere((element) => element.id == 84);
+    }
+
+    var dlcSora = Settings.getValue('key-roster-fp2-sora', true);
+    if (!dlcSora) {
+      fighters.removeWhere((element) => element.id == 85);
+    }
   }
 
   Fighter getById(int id) => fighters[id];

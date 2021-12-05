@@ -418,5 +418,15 @@
         "id": 83,
         "name": "Pyra",
         "series": "Xenoblade"
+    },
+    {
+        "id": 84,
+        "name": "Kazuya",
+        "series": "Tekken"
+    },
+    {
+        "id": 85,
+        "name": "Sora",
+        "series": "Kingdom Hearts"
     }
 ]
